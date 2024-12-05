@@ -142,7 +142,7 @@ Sound effects will be played when moles appear and when they are successfully wh
           <span className="fresher20"> </span>Email:<a href="lekkalakalyanilekkala@gmail.com">mailid</a>
         </p>
         <p className="fresher15">
-          <span className="fresher20"> </span>Github:<a href="https://github.com/RakeshReddy123devoloper?tab=repositories">github</a>
+          <span className="fresher20"> </span>Github:<a href="https://github.com/Kalyani8977">github</a>
          
         </p>
         {/* <p className="fresher16"> */}

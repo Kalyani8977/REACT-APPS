@@ -7,7 +7,7 @@ import Home from './Home/HomeComp';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Accordian from './uicontent/bs accordian/accordianComp';
 // import About from './components/About';
-// import Even from './evenfolder/even'
+import Even from './evenfolder/even'
 // import CondRend from './uicontent/conditionalrendering/condRend.js';
 // const data=
 // [
@@ -93,13 +93,13 @@ root.render(
     })} */}
     {/* <App /> */}
     {/* <About/> */}
-     <Home/>
+     {/* <Home/> */}
     {/* <Accordian/> */}
     {/* <CondRend/> */}
-  {/* <Even/>  */}
+  <Even/> 
   {/* <Farm/> */}
   {/* <Counter/> */}
-  {/* <Fresher/> */}
+  <Fresher/>
  
  
   </React.StrictMode>
