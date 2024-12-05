@@ -98,9 +98,9 @@ root.render(
   {/* <Home/> */}
     {/* <AccordionComp/> */}
   {/* <CondRend/> */}
-  {/* <Even/> */}
+  <Even/>
   {/* <Farm/> */}
-  <Counter/>
+  {/* <Counter/> */}
   {/* <Fresher/> */}
  
  
