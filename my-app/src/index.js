@@ -7,7 +7,7 @@ import Home from './Home/HomeComp';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Accordian from './uicontent/bs accordian/accordianComp';
 // import About from './components/About';
-import Even from './evenfolder/even'
+// import Even from './evenfolder/even'
 // import CondRend from './uicontent/conditionalrendering/condRend.js';
 // const data=
 // [
@@ -77,8 +77,8 @@ import Even from './evenfolder/even'
 //   }
 // ]
 // import Farm from './forms/form';
-// import Counter from './counter/counterapp';
-import Fresher from './portfolio/resume';
+import Counter from './counter/counterapp';
+// import Fresher from './portfolio/resume';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -96,10 +96,10 @@ root.render(
      {/* <Home/> */}
     {/* <Accordian/> */}
     {/* <CondRend/> */}
-  <Even/> 
+  {/* <Even/>  */}
   {/* <Farm/> */}
-  {/* <Counter/> */}
-  <Fresher/>
+  <Counter/>
+  {/* <Fresher/> */}
  
  
   </React.StrictMode>
