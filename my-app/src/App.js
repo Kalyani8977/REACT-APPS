@@ -29,14 +29,16 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import './index.css';
+import Funclifecycle from './uicontent/function/funclifecycle';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header />
       <About />
       <Projects />
-      <Contact />
+      <Contact /> */}
+      <Funclifecycle/>
     </div>
   );
 }

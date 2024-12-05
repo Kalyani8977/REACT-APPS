@@ -217,22 +217,22 @@ const data = [
 class Home extends Component {
   render() {
     return (
-      <div style={{ display: "flex", flexDirection: "column" }}>
-        {/* <ProfileCard name="harish" city="hyd"  role="developer"/>
+       <div style={{ display: "flex", flexDirection: "column" }}>
+     {/* <ProfileCard name="harish" city="hyd"  role="developer"/>
           <ProfileCard name="prasad" city="hyd" role="developer"/>
-          <ProfileCard name="santhoshi" city="hyd" role="developer"/>
-          <Notifications type="liked" name="mohan"/>
+          <ProfileCard name="santhoshi" name="mohan"/>
+          <ProfileCard type="liked" name="mohan"/>
           <Notifications type="commented" name="yogesh"/>
           <Notifications type="shared" name="sujatha"/>
           <Notifications type="saved" name="divya"/>
           <ProductCard>
             <h1>mobile</h1>
-            <p>samsung-s24</p>
+             <p>samsung-s24</p>
             <h2>hello</h2>
             <h2>vivo</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum consectetur ex veritatis. Officia tenetur cum earum doloremque excepturi labore est! Fugit nulla cum, maxime eveniet consequuntur recusandae assumenda ipsam non?</p>
-          </ProductCard> */}
-        {/* {data.map((a,b) => {
+          </ProductCard>
+        {data.map((a,b) => {
             return(
               <>
               <div key={b}>
@@ -240,12 +240,14 @@ class Home extends Component {
               </div>
               </>
             )
-        })} */}
-        {/* <Cards/> */}
-        <Even/>
+        })}
+        <Cards/>
+        <Even/> */}
        </div>
     );
   }
 }
 
 export default Home;
+
+        

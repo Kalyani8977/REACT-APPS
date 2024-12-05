@@ -21,8 +21,8 @@ render(){
     return(
         <div>
 
-           <h1> <button onClick={this.handleevent}>+</button></h1>
-           <h1> <button onClick={this.handleevent1}>-</button></h1>
+           <h1> <button onClick={this.handleevent}>+1</button></h1>
+           <h1> <button onClick={this.handleevent1}>-1</button></h1>
            <h1>  {this.state.count}</h1>
            <h1> <button onClick={this.handleevent2}>+2</button></h1>
            <h1> <button onClick={this.handleevent3}>-2</button></h1>
