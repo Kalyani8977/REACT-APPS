@@ -1,19 +1,22 @@
 import React from "react";
 // import Accordion  from "react-bootstrap/Accordioncd";
 import Accordion from 'react-bootstrap/Accordion';
-function Accordian(props){
+import Image from 'react-bootstrap/Image'
+function AccordionComp(props){
     return(
         // <div>
-            <Accordian>
-                <Accordian.Item>
-                    <Accordian.Header>{props.title}</Accordian.Header>
-                      <Accordian.Body>
-                      {<image src={props.img} style={{height:"100px"}}/>}
+            <Accordion>
+                <Accordion.Item>
+                    <Accordion.Header>{props.title}</Accordion.Header>
+                      <Accordion.Body>
+                      {/* {<image src={props.img} style={{height:"100px"}}/>} */}
+                      <Image src={props.img} rounded style={{height:"100px"}} />
 
-                      </Accordian.Body>
-                </Accordian.Item>
-            </Accordian>                   
+
+                      </Accordion.Body>
+                </Accordion.Item>
+            </Accordion>                   
 
     )
 }
-export default Accordian;
+export default AccordionComp;
