@@ -93,13 +93,13 @@ root.render(
   img={a.image}
     />)
    })}  */}
-    {/* <App /> */}
+    <App />
   {/* <About/> */}
   {/* <Home/> */}
     {/* <AccordionComp/> */}
   {/* <CondRend/> */}
   {/* <Even/> */}
-  <Farm/>
+  {/* <Farm/> */}
   {/* <Counter/> */}
   {/* <Fresher/> */}
  
