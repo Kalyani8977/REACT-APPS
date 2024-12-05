@@ -93,13 +93,13 @@ root.render(
       )
     })}
     {/* <App /> */}
-    <About/>
-     <Home/>
-    {/* <AccordionComp/> */}
-    <CondRend/>
-  <Even/>
+    {/* <About/> */}
+     {/* <Home/> */}
+    <AccordionComp/>
+    {/* <CondRend/> */}
+  {/* <Even/> */}
   {/* <Farm/> */}
-  <Counter/>
+  {/* <Counter/> */}
   {/* <Fresher/> */}
  
  
