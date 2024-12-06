@@ -12,6 +12,10 @@ import CondRend from './uicontent/conditionalrendering/condRend.js';
 import Farm from './forms/form';
 import Counter from './counter/counterapp';
 import Fresher from './portfolio/resume';
+import Classname from './uicontent/practice.js';
+import Functionname from './uicontent/practice.js';
+import Tables from './uicontent/table/table.js';
+
 
 // const data=
 // [
@@ -93,15 +97,19 @@ root.render(
   img={a.image}
     />)
    })}  */}
-    <App />
+    {/* <App /> */}
   {/* <About/> */}
   {/* <Home/> */}
-    {/* <AccordionComp/> */}
+  {/* <AccordionComp/> */}
   {/* <CondRend/> */}
   {/* <Even/> */}
   {/* <Farm/> */}
   {/* <Counter/> */}
   {/* <Fresher/> */}
+ {/* <Classname/> */}
+ {/* <Functionname/> */}
+ <Tables/>
+ 
  
  
   </React.StrictMode>
