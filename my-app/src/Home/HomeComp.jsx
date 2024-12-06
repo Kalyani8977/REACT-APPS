@@ -6,6 +6,7 @@ import Cards from "../uicontent/bootstrap/cards";
 import Even from "../evenfolder/even";
 // import BasicExample from "../uicontent/cards/cards";
 import Parent from "../uicontent/cards/parent";
+import Tablecomp from "../uicontent/bs-table/tableComp";
 
 
 const data = [
@@ -247,7 +248,9 @@ class Home extends Component {
         <Cards/>
         <Even/> */}
         {/* <BasicExample/> */}
-        <Parent/>
+        {/* <Parent/> */}
+        <Tablecomp/>
+        
         
        </div>
     );
