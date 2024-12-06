@@ -97,7 +97,7 @@ root.render(
   img={a.image}
     />)
    })}  */}
-    {/* <App /> */}
+    <App />
   {/* <About/> */}
   {/* <Home/> */}
   {/* <AccordionComp/> */}
@@ -108,7 +108,7 @@ root.render(
   {/* <Fresher/> */}
  {/* <Classname/> */}
  {/* <Functionname/> */}
- <Tables/>
+ {/* <Tables/> */}
  
  
  
