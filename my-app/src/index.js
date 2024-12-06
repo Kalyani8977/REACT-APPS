@@ -97,9 +97,9 @@ root.render(
   img={a.image}
     />)
    })}  */}
-    <App />
+    {/* <App /> */}
   {/* <About/> */}
-  {/* <Home/> */}
+  <Home/>
   {/* <AccordionComp/> */}
   {/* <CondRend/> */}
   {/* <Even/> */}

@@ -4,6 +4,9 @@ import { Component } from "react";
 // import ProductCard from "../uicontent/products/productsCard";
 import Cards from "../uicontent/bootstrap/cards";
 import Even from "../evenfolder/even";
+// import BasicExample from "../uicontent/cards/cards";
+import Parent from "../uicontent/cards/parent";
+
 
 const data = [
   {
@@ -243,6 +246,9 @@ class Home extends Component {
         })}
         <Cards/>
         <Even/> */}
+        {/* <BasicExample/> */}
+        <Parent/>
+        
        </div>
     );
   }
