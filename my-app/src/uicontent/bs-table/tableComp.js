@@ -1,37 +1,27 @@
-import React from "react";
+import React from 'react';
 import Table from 'react-bootstrap/Table';
 
-function Tablecomp() {
+function Bstable(props) {
   return (
-    <Table striped bordered hover>
+    <Table striped bordered hover size="sm">
       <thead>
         <tr>
-          <th>#</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Username</th>
+          <th>Title</th>
+          <th>Description</th>
+          <th>Image</th>
+          <th>Category</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>1</td>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td colSpan={2}>Larry the Bird</td>
-          <td>@twitter</td>
+          <td>{props.title}</td>
+          <td >{props.desc}</td>
+          <td><img src={props.img} alt='img' style={{height:"50px",width:"50px"}}/></td>
+          <td>{props.cat}</td>
         </tr>
       </tbody>
     </Table>
   );
 }
-export default Tablecomp;
+
+export default Bstable;

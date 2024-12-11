@@ -6,7 +6,15 @@ import Cards from "../uicontent/bootstrap/cards";
 import Even from "../evenfolder/even";
 // import BasicExample from "../uicontent/cards/cards";
 import Parent from "../uicontent/cards/parent";
-import Tablecomp from "../uicontent/bs-table/tableComp";
+import Bstable from "../uicontent/bs-table/tableComp";
+import Calculator from "../uicontent/calculator/calculator";
+import Todoapp from "../uicontent/todolist/todo";
+import Funclifecycle from "../uicontent/lifecycle";
+import AccordionComp from "../uicontent/bs accordian/accordianComp";
+import Fresher from "../portfolio/resume";
+import Tables from "../uicontent/table/table";
+import Counter from "../counter/counterapp";
+import Farm from "../forms/form";
 
 
 const data = [
@@ -221,8 +229,183 @@ const data = [
 class Home extends Component {
   render() {
     return (
-       <div style={{ display: "flex", flexDirection: "column" }}>
-     {/* <ProfileCard name="harish" city="hyd"  role="developer"/>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          flexWrap: "wrap",
+          gap: "10px",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+
+
+        <div  style={{
+           display: "flex",
+          flexDirection: "row",
+          flexWrap: "wrap",
+          gap: "10px",
+          justifyContent: "center",
+          alignItems: "center",
+        }}>
+        {data.map((a,b) => {
+            return(
+              <>
+              <div key={b}>
+                <Cards data={a}/>
+              </div>
+              </>
+            )
+        })}</div>
+
+        <div
+          style={{
+            border: "2px solid black",
+            width: "100%",
+            height: "300px",
+            display: "flex",
+            flexDirection: "column",
+            flexWrap: "wrap",
+            gap: "10px",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          {" "}
+          EVEN OR ODD
+          <Even />
+        </div>
+
+        <div
+          style={{
+            border: "2px solid black",
+            width: "100%",
+            height: "300px",
+            display: "flex",
+            flexDirection: "column",
+            flexWrap: "wrap",
+            gap: "10px",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          TODO LIST
+          <Todoapp />
+        </div>
+
+        <div
+          style={{
+            border: "2px solid black",
+            width: "100%",
+            height: "300px",
+            display: "flex",
+            flexDirection: "column",
+            flexWrap: "wrap",
+            gap: "10px",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          {" "}
+          COUNTER USING FUNCTION
+          <Funclifecycle />
+        </div>
+
+        {data.map((a, b) => {
+          return (
+            <Bstable
+              title={a.title}
+              desc={a.description}
+              img={a.image}
+              cat={a.category}
+            />
+          );
+        })}
+
+
+        <div   style={{
+          display: "flex",
+          flexDirection: "row",
+          flexWrap: "wrap",
+          gap: "10px",
+          justifyContent: "center",
+          alignItems: "center",
+        }}>
+        {data.map((a, b) => {
+          return <AccordionComp key={b} title={a.id} img={a.image} />;
+        })}
+        </div>
+
+
+       
+
+
+          <div  style={{
+          display: "flex",
+          flexDirection: "row",
+          flexWrap: "wrap",
+          gap: "10px",
+          justifyContent: "center",
+          alignItems: "center",
+        }} 
+          > <Fresher/></div>
+
+<div  style={{
+            border: "2px solid black",
+            width: "100%",
+            height: "300px",
+            display: "flex",
+            flexDirection: "column",
+            flexWrap: "wrap",
+            gap: "10px",
+            justifyContent: "center",
+            alignItems: "center",
+          }}><Tables/></div>
+         
+
+         <div
+          style={{
+            border: "2px solid black",
+            width: "100%",
+            height: "600px",
+            display: "flex",
+            flexDirection: "column",
+            flexWrap: "wrap",
+            gap: "10px",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <Counter/>
+        </div>
+
+
+        <div
+          style={{
+            border: "2px solid black",
+            width: "100%",
+            height: "300px",
+            display: "flex",
+            flexDirection: "column",
+            flexWrap: "wrap",
+            gap: "10px",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <Farm/>
+        </div>
+
+
+
+
+
+
+        {/* <BasicExample/> */}
+        {/* <Parent/> */}
+        {/* <Calculator/> */}
+        {/* <ProfileCard name="harish" city="hyd"  role="developer"/>
           <ProfileCard name="prasad" city="hyd" role="developer"/>
           <ProfileCard name="santhoshi" name="mohan"/>
           <ProfileCard type="liked" name="mohan"/>
@@ -235,28 +418,10 @@ class Home extends Component {
             <h2>hello</h2>
             <h2>vivo</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum consectetur ex veritatis. Officia tenetur cum earum doloremque excepturi labore est! Fugit nulla cum, maxime eveniet consequuntur recusandae assumenda ipsam non?</p>
-          </ProductCard>
-        {data.map((a,b) => {
-            return(
-              <>
-              <div key={b}>
-                <Cards data={a}/>
-              </div>
-              </>
-            )
-        })}
-        <Cards/>
-        <Even/> */}
-        {/* <BasicExample/> */}
-        {/* <Parent/> */}
-        <Tablecomp/>
-        
-        
-       </div>
+          </ProductCard> */}
+      </div>
     );
   }
 }
 
 export default Home;
-
-        

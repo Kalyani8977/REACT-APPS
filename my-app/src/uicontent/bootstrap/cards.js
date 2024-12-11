@@ -3,9 +3,16 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 function Cards(props) {
-  return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+  return (<div style={{
+    display: "flex",
+    flexDirection:"row",
+    flexWrap: "wrap",
+    gap: "10px",
+    justifyContent: "center",
+    alignItems: "center",
+  }}>
+    <Card style={{ width: '18rem', }}>
+      <Card.Img variant="top" src={props.data.image} />
       <Card.Body>
         <Card.Title>{props.data.title}</Card.Title>
         <Card.Text>
@@ -14,7 +21,7 @@ function Cards(props) {
         </Card.Text>
         <Button variant="primary">{props.data.category}</Button>
       </Card.Body>
-    </Card>
+    </Card></div>
     
   );
 }

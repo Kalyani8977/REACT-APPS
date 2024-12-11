@@ -5,16 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Home from './Home/HomeComp';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import AccordionComp from './uicontent/bs accordian/accordianComp';
 import About from './components/About';
-import Even from './evenfolder/even'
 import CondRend from './uicontent/conditionalrendering/condRend.js';
-import Farm from './forms/form';
-import Counter from './counter/counterapp';
-import Fresher from './portfolio/resume';
 import Classname from './uicontent/practice.js';
 import Functionname from './uicontent/practice.js';
-import Tables from './uicontent/table/table.js';
+ 
 
 
 // const data=
@@ -90,28 +85,20 @@ import Tables from './uicontent/table/table.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   {/* {data.map((a,b)=>{
-  return(
-   <AccordionComp key={b}
-   title={a.id}
-  img={a.image}
-    />)
-   })}  */}
+  
+  <Home/>
+
+
+
+
+
     {/* <App /> */}
   {/* <About/> */}
-  <Home/>
-  {/* <AccordionComp/> */}
   {/* <CondRend/> */}
-  {/* <Even/> */}
-  {/* <Farm/> */}
-  {/* <Counter/> */}
-  {/* <Fresher/> */}
  {/* <Classname/> */}
  {/* <Functionname/> */}
- {/* <Tables/> */}
  
- 
- 
+
   </React.StrictMode>
  );
 
