@@ -15,6 +15,8 @@ import Fresher from "../portfolio/resume";
 import Tables from "../uicontent/table/table";
 import Counter from "../counter/counterapp";
 import Farm from "../forms/form";
+import Spinnerupdate from "../uicontent/spinner/spinners";
+
 
 
 const data = [
@@ -405,6 +407,7 @@ class Home extends Component {
         {/* <BasicExample/> */}
         {/* <Parent/> */}
         {/* <Calculator/> */}
+        <Spinnerupdate/>
         {/* <ProfileCard name="harish" city="hyd"  role="developer"/>
           <ProfileCard name="prasad" city="hyd" role="developer"/>
           <ProfileCard name="santhoshi" name="mohan"/>

@@ -12,6 +12,7 @@ import Functionname from './uicontent/practice.js';
  
 
 
+
 // const data=
 // [
   // {
